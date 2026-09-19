@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Caches
+cache/
+.cache/
+
+# Logs
+logs/
+Logs/
+*.log
+
+# Checkpoints / model weights
+checkpoints/
+Checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# Data
+data/
+datasets/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
