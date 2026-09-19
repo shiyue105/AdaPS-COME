@@ -152,7 +152,7 @@ w_i
 (1-\lambda)H(p_i)
 +
 \lambda H_{\mathrm{COME}}(o_i)
-\right],
+\right]
 $$
 
 where:
