@@ -144,6 +144,7 @@ AdaPS-COME combines the reliability weighting with a COME-style conservative obj
 The final objective is based on a weighted combination of conventional predictive entropy and COME uncertainty:
 
 $$
+
 \mathcal{L}
 =
 \sum_i
@@ -153,6 +154,7 @@ w_i
 +
 \lambda H_{\mathrm{COME}}(o_i)
 \right]
+
 $$
 
 where:
