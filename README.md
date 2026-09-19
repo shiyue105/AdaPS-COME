@@ -55,7 +55,7 @@ The uncertainty is then mapped to an adaptive probability-mass threshold:
 
 $$
 q_t =
-\operatorname{clip}
+\mathrm{clip}
 \left(
 q_{\min}
 +
@@ -64,6 +64,18 @@ q_{\min},
 q_{\max}
 \right),
 $$
+
+where:
+
+- $U_t$ is the uncertainty estimated from the current batch.
+- $q_{\min}$ is the minimum threshold.
+- $q_{\max}$ is the maximum threshold.
+
+The default settings used in the experiments are:
+
+```text
+q_min = 0.90
+q_max = 0.98
 
 where:
 
